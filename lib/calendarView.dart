@@ -71,7 +71,7 @@ class _CalendarViewState extends State<CalendarView> {
               Diary diary = (projectSnap.data as List)[index];
               return LimitedBox(
                 child: Container(
-                    height: 200,
+                    height: 150,
                     decoration: BoxDecoration(
                         border: Border.all(color: Colors.black, width: 5)),
                     child: Column(
